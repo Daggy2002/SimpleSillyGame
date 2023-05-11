@@ -114,10 +114,10 @@ while running:
         
         #generate random number to see if orb is visible
         prob = random.randint(1,60)
-        print(prob)
+        #print(prob)
         if (prob == 10 and count1 <= 1):
             count1+=1
-            print(True)
+            #print(True)
             displayOrb = True
             OrbTime = 600
 
